@@ -1,0 +1,11 @@
+云端生成 Windows EXE（无需本机安装 Python）
+
+1. 登录 https://github.com/ 并创建一个新仓库（Repository）。
+2. 将本压缩包解压，把所有文件（包括隐藏的 .github 文件夹）上传到仓库根目录。
+3. 打开仓库顶部的 Actions 页面，按提示启用 Actions。
+4. 左侧选择 Build Windows EXE，点击 Run workflow，再确认运行。
+5. 等待运行完成，打开成功的运行记录，在页面底部 Artifacts 区域下载 Word公式图片转换助手-Windows。
+6. 解压下载文件，得到 Word公式图片转换助手.exe。
+
+最终 EXE 不要求安装 Python，但运行时需要 Windows 和桌面版 Microsoft Word。
+当前版本主要处理 Word 原生公式对象（OMath）；普通文本形式的公式不会自动识别。请先用文档副本测试转换结果。
